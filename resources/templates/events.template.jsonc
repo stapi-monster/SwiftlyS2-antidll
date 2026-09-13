@@ -1,0 +1,62 @@
+{
+  "AntiDllEvents": {
+    // Список названий игровых событий, подписка клиента на которые указывает на работу инжектированного чита (DLL)
+    "events": [
+      // 1. Стрельба, попадания и отдача (Aimbot / Triggerbot / Hitmarkers)
+      "bullet_impact",
+      "bullet_damage",
+      "bullet_flight_resolution",
+      "weapon_fire_on_empty",
+      "weapon_reload",
+      "weapon_zoom",
+      "weapon_zoom_rifle",
+      "inspect_weapon",
+      "silencer_detach",
+      // 2. Звук и видимость (Sound ESP / Radar / Wallhack / Anti-Flash)
+      "player_footstep",
+      "player_jump",
+      "player_falldamage",
+      "player_blind",
+      // 3. Гранаты (Grenade Helper / Prediction)
+      "grenade_bounce",
+      "molotov_detonate",
+      "tagrenade_detonate",
+      "inferno_extinguish",
+      "decoy_firing",
+      // 4. Бомба C4 (Bomb ESP / C4 Timer / AutoDefuse)
+      "bomb_beginplant",
+      "bomb_abortplant",
+      "bomb_begindefuse",
+      "bomb_abortdefuse",
+      "bomb_beep",
+      // 5. Покупки и магазин (AutoBuy / Economy Tracker)
+      "item_purchase",
+      "enter_buyzone",
+      "exit_buyzone",
+      "buymenu_open",
+      "buymenu_close",
+      "buytime_ended",
+      // 6. Инвентарь и предметам (Item ESP / Skinchanger)
+      "item_pickup_slerp",
+      "item_pickup_failed",
+      "item_equip",
+      "item_remove",
+      "inventory_updated",
+      "client_loadout_changed",
+      // 7. Объекты карты (Door ESP / AutoDoor)
+      "door_open",
+      "door_closed",
+      "door_break",
+      "door_moving",
+      "break_prop",
+      "break_breakable",
+      // 8. Состояние клиента (Deathpanel Bypass / ESP)
+      "show_deathpanel",
+      "hide_deathpanel",
+      "entity_visible",
+      "local_player_pawn_changed",
+      "local_player_controller_team",
+      "player_decal"
+    ]
+  }
+}
